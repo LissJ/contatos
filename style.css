@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+
+@font-face {
+    font-family: 'Poppins';
+    src: url(font/Poppins-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url(Font/OpenSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url(Font/Roboto-Regular.ttf);
+}
+
+html{
+    background-color: #a196f674;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+h1 {
+    text-align: center;
+    padding: 26px 0;
+    color: #fff;
+    font: 400 30px 'Poppins';
+    background-color: #420982;
+    height: 100px;
+}
+
+#tudo {
+    text-align: center; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 20px;
+    margin-top: 60px;
+}
+
+input,
+button {
+    padding: 10px;
+}
+
+form input {
+    margin: 10px 85px;
+}
+
+ul {
+    list-style: none;
+}
+
+textarea {
+    resize: none;
+    margin-bottom: 15px;
+
+}
+
+li {
+    text-align: center;
+    margin: 0 425px;
+    font-size: 15px;
+}
+
+#botao {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+input, button, textarea{
+    width: 300px;
+    margin-top: 17px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#mostrar-contatos, #ocultar-contatos{
+    width: 148px;
+    margin: 0 4px 20px;
+}
+
+button{
+    background-color: #420982;
+    color: #fff;
+    padding: 15px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #a364ec;
+    color: #000000;
+
+}
+
+.botoes button {
+    margin: 0 15px 20px;
+}
